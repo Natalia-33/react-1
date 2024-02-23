@@ -1,3 +1,6 @@
+import Page from "./component/page";
+import Header from "./component/header";
+
 function App() {
   const data = {
     listing_name: "Іст-Сайд Біл",
@@ -144,7 +147,11 @@ function App() {
     ],
   };
 
-  return <div>Hello World</div>;
+  return (
+    <Page>
+      <Header />
+    </Page>
+  );
 }
 
 export default App;
