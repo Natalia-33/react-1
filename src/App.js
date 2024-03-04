@@ -5,7 +5,7 @@ import Photo from "./component/photo";
 import Price from "./component/price";
 import RoomList from "./component/room-list";
 import Description from "./component/description";
-import Box from "./component/box";
+import PropertyDetails from "./component/property_details";
 
 function App() {
   const data = {
@@ -178,6 +178,10 @@ function App() {
       <RoomList list={data.roomTypes} />
       <Description title="Опис" children={data.description}></Description>
       <Description title="Про сусідів" children={data.neighborhood_info} />
+      <PropertyDetails
+        title="Деталі властивості:"
+        children={data.property_details}
+      ></PropertyDetails>
     </Page>
   );
 }
