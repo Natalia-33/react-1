@@ -1,13 +1,24 @@
-.properties {
-  width: 100%;
-  border-radius: 20px;
-  border: 1px solid #dee2e6;
-  padding: 24px;
+.property_details {
+  gap: 24px;
 }
-.properties--shadow {
-  border-color: transparent;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-}
-.title {
+
+.property_title {
+  font-size: 32px;
   color: #000;
+  border-bottom: 1px solid #dee2ed;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+.property_header {
+  display: flex;
+  gap: 12px;
+  line-height: 1.5em;
+}
+
+.property_details-item {
+  border-bottom: 1px solid #dee2ed;
+  padding-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  gap: 14px;
 }

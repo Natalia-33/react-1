@@ -1,24 +1,29 @@
-.amenities_details {
+.nearbyAttractions_details {
   gap: 24px;
 }
 
-.amenities_title {
+.nearbyAttractions_title {
   font-size: 32px;
   color: #000;
   border-bottom: 1px solid #dee2ed;
   padding-bottom: 8px;
   font-weight: bold;
 }
-.amenities_header {
+.nearbyAttractions_name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.nearbyAttractions_header {
   display: flex;
   gap: 12px;
   line-height: 1.5em;
 }
 
-.amenities_details-item {
+.nearbyAttractions-item {
   border-bottom: 1px solid #dee2ed;
   padding-bottom: 10px;
   font-size: 16px;
-  display: flex;
+  display: grid;
   gap: 14px;
+  text-decoration: underline;
 }

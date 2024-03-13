@@ -6,6 +6,11 @@ import Price from "./component/price";
 import RoomList from "./component/room-list";
 import Description from "./component/description";
 import PropertyDetails from "./component/property_details";
+import Amenities from "./component/amenities";
+import ContactInfo from "./component/contact_info";
+import AdditionalProperties from "./component/additional_properties";
+import GuestReviews from "./component/guestReviews";
+import NearbyAttractions from "./component/nearbyAttractions";
 
 function App() {
   const data = {
@@ -182,6 +187,11 @@ function App() {
         title="Деталі властивості:"
         children={data.property_details}
       ></PropertyDetails>
+      <Amenities title="Зручності:"></Amenities>
+      <ContactInfo name="Господар-Kerthy"></ContactInfo>
+      <AdditionalProperties title="Додаткові властивості"></AdditionalProperties>
+      <GuestReviews list={data.guestReviews}></GuestReviews>
+      <NearbyAttractions title="Пам'ятки поблизу"></NearbyAttractions>
     </Page>
   );
 }

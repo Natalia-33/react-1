@@ -1,24 +1,28 @@
-.amenities_details {
+.additional_details {
   gap: 24px;
 }
 
-.amenities_title {
+.additional_title {
   font-size: 32px;
   color: #000;
   border-bottom: 1px solid #dee2ed;
   padding-bottom: 8px;
   font-weight: bold;
 }
-.amenities_header {
+.additional_name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.additional_header {
   display: flex;
   gap: 12px;
   line-height: 1.5em;
 }
 
-.amenities_details-item {
+.additional_details-item {
   border-bottom: 1px solid #dee2ed;
   padding-bottom: 10px;
   font-size: 16px;
-  display: flex;
+  display: grid;
   gap: 14px;
 }
